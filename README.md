@@ -4,6 +4,8 @@ This Project has two parts, the client side and smart_contracts. To run the clie
 
 1. Download [VScode](https://code.visualstudio.com/download)
 2. Next, we need to install [Node.js and NPM](https://nodejs.org/en/download/)
+3. Install Git [Windows](https://git-scm.com/download/win )
+4. Install Git [Mac OS](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (follow the install on mac section)
    1. install
       1.  Once the installer finishes downloading, launch it. Open the downloads link in your browser and click the file. Or, browse to the location where you have saved the file and double-click it to launch.
       2. The system will ask if you want to run the software – click Run.
@@ -32,18 +34,30 @@ This Project has two parts, the client side and smart_contracts. To run the clie
          ```
          npm -v
          ```
-3. Now that all of the basics are downloaded Let Get It! 
+5. Now that all of the basics are downloaded Let Get It! 
+6. At the top of this page is a GREEN button labeled `code`
+   1. we need to click this and copy the script inside 
+   2. right above the script we want to copy make sure `HTTPS` is underlined (not ssh)
+   3. Let go back to your terminal or cmd line and follow these steps to navigate to our desktop via terminal(mac) or cmd(windows):
+   ```
+   On Windows the desktop is a folder on the system drive (usually C), C:\Users\user\Desktop and to navigate to it you need to use the cd command (change directory).
 
+   First you need to make sure you're on the root directory, that's C:, so you run cd \
 
+   Second you run cd users\username\desktop
 
-Try running some of the following tasks:
+   That's it!
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+   On Linux the procedure is similar, you run the command cd /home/username/desktop
+   ```
+   4. now that we are located in our desktop directory lets run ```git clone pasteScriptHere ```
+7. Now that all of that is out of the way: 
+``` 
+Open VS Code
+File > Open > find the desktop folder > and select the project folder > then click open
 ```
+8. VS code has a built in terminal we can open by using: ` ^+~ (control + tilde`
+9. We need to change into the client directory `cd client` and install the dependencies `npm install`
+10. NOW run `npm run dev` when the projects loads it will give a link click that link to open the APP
+11. Happy coding !
+
