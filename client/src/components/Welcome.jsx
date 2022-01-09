@@ -32,6 +32,7 @@ const Welcome = () => {
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
                         Explore the crypto world buy and sell cryptocurrencies easily on Krpyto
+                        The possibilities are endless
                     </p>
                     <button
                         type="button"
